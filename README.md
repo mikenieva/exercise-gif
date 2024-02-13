@@ -1,30 +1,42 @@
-# React + TypeScript + Vite
+# Giphy API React Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Repo: [LINK](https://github.com/mikenieva/exercise-gif)
+Demo: [LINK]()
 
-Currently, two official plugins are available:
+## Description
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This application provides a seamless interface for users to search and view GIFs using the Giphy API. It features a responsive design, pagination, and an intuitive user experience. Users can search for GIFs, view trending GIFs, and navigate through pages of results.
 
-## Expanding the ESLint configuration
+## Installation
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Before running the application, you need to install the necessary packages. This project was booted with [Vite](https://vitejs.dev) and utilizes several additional packages for functionality and styling, including TailwindCSS for styling and react-loading-skeleton for loading placeholders.
 
-- Configure the top-level `parserOptions` property like this:
+To install the required packages, run the following command in your project directory:
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+```bash
+$ npm install
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Available Scripts
+
+In the project directory, you can run several scripts:
+
+### `npm start`
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
+
+```bash
+$ npm start
+```
+
+## Attribution to Giphy
+
+This application uses the Giphy API to fetch and display GIFs. As per Giphy's requirements, we have included the "Powered By GIPHY" attribution in our application interface where the Giphy API is utilized. For more information on Giphy's attribution requirements, please visit their [official documentation](https://developers.giphy.com/docs/api/#quick-start-guide).
+
+## License
+
+This project is open-sourced under the MIT license. See the [LICENSE](LICENSE) file for more details.
