@@ -1,7 +1,7 @@
 # Giphy API React Application
 
 Repo: [LINK](https://github.com/mikenieva/exercise-gif)
-Demo: [LINK]()
+Demo: [LINK](https://mnieva-exercise-giphy.netlify.app/)
 
 ## Description
 
